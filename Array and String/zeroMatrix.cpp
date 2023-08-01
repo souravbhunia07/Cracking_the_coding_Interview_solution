@@ -1,3 +1,5 @@
+// O(M * N)
+
 #include <iostream>
 #include <vector>
 #include <unordered_set>
