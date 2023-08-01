@@ -3,14 +3,7 @@
 using namespace std;
 
 bool isSubstring(const string& str, const string& substr) {
-    if(str.find(substr))
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return str.find(substr) != string::npos;
 }
 
 bool isRotation(const string& s1, const string& s2) {
