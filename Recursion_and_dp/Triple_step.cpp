@@ -23,7 +23,7 @@ int main() {
     dp[0] = 0;
     dp[1] = 1;
     dp[2] = 2;
-    dp[3] = 4;
+    dp[3] = 4; // We can reach 3rd step by y ways:- 1 + 1 + 1, 2 + 1, 1 + 2, 3
     int ways = countWaysToClimbStairs(n, dp);
     std::cout << "Number of possible ways: " << ways << std::endl;
 
