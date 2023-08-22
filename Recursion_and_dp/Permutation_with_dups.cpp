@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Time Complexity: O(n!) in the worst case (considering duplicate elements)
+// Space Complexity: O(n)
+
 class Solution
 {
 public:
