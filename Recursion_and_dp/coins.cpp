@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// TC = O(M * N)
-// SC = O(M * N)
+// So, the time complexity is O(n * sum), and the space complexity is also O(n * sum).
 
 class Solution
 {
